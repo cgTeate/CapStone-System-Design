@@ -13,6 +13,7 @@ export default function Header() {
             <HeaderIcon Icon={PhoneIcon} title="CONTACT"/>
             <HeaderIcon Icon={InformationCircleIcon} title="ABOUT"/>
         </div>
+        hello anh
         <Image
        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/440px-IMDB_Logo_2016.svg.png"
         width={100}
