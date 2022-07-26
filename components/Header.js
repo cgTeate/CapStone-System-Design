@@ -9,6 +9,7 @@ export default function Header() {
         <div className="">
             <HeaderIcon Icon={HomeIcon} title="HOME"/>
             <HeaderIcon Icon={UserIcon} title="ACCOUNT"/>
+            <HeaderIcon Icon={UserIcon} title="LOGIN"/>
             <HeaderIcon Icon={PhoneIcon} title="CONTACT"/>
             <HeaderIcon Icon={InformationCircleIcon} title="ABOUT"/>
         </div>
