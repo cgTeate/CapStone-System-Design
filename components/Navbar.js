@@ -3,9 +3,9 @@ import requests from '../utils/requests'
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="flex justify-center bg-gray-600 text-gray-200 select-none text-xl lg:text-2xl">
         {Object.entries(requests).map(([key,{title, url}])=>(
-          <h1 key={key}>{title}</h1>
+          <h1 className="m-6 cursor-pointer hover:text-white active:text-red-400" key={key}>{title}</h1>
           ))}
     </div>
   )
